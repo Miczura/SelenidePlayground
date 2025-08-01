@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="All Heroku tests" parallel="methods" thread-count="1">
+<suite name="All Heroku tests" parallel="methods" thread-count="3">
 
     <test name="Dropdown Tests">
         <classes>
             <class name="org.example.DropdownTest"/>
-
+            <class name="org.example.AddRemoveElementTest"/>
         </classes>
     </test>
 
