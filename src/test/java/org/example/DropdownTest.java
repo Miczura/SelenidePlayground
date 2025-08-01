@@ -1,13 +1,15 @@
 package org.example;
 
 
+import com.codeborne.selenide.testng.TextReport;
 import org.example.Pages.DropdownPage;
 import org.example.Pages.TheHerokuMainPage;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import static com.codeborne.selenide.Condition.text;
 
-
+@Listeners({TextReport.class})
 public class DropdownTest extends TestBase{
     @Test
     public void verifyIfOption2IsSelectedTest() {
