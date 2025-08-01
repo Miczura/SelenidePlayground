@@ -27,7 +27,7 @@ Tests run against public playground apps such as [The Internet (Herokuapp)](http
 
 ```
 git clone https://github.com/Miczura/SelenidePlayground.git
-cd selenide-playground
+cd SelenidePlayground
 ```
 ### 2. Import the project
 Import the project into your favorite IDE (e.g., IntelliJ IDEA) as a Maven project.
