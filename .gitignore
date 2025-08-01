@@ -14,5 +14,7 @@ target/
 *.ipr
 
 
-
+### selenide ###
+test-result
+build
 
