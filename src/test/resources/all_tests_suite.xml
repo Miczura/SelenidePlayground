@@ -6,6 +6,7 @@
         <classes>
             <class name="org.example.DropdownTest"/>
             <class name="org.example.AddRemoveElementTest"/>
+            <class name="org.example.DynamicControlTest"/>
         </classes>
     </test>
 

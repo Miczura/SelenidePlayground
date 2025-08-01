@@ -1,12 +1,14 @@
 package org.example;
 
 
+import com.codeborne.selenide.testng.TextReport;
 import org.example.Pages.AddRemoveElementsPage;
 import org.example.Pages.TheHerokuMainPage;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 
-
+@Listeners({TextReport.class})
 public class AddRemoveElementTest extends TestBase{
     @Test
     public void verifyIfAddElementButtonIsClickableTest(){
